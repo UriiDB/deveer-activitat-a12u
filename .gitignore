@@ -1,0 +1,12 @@
+# Fitxers del sistema
+.DS_Store
+Thumbs.db
+
+# Fitxers de l’editor
+.vscode/
+*.code-workspace
+
+# Fitxers temporals
+*.log
+*.tmp
+

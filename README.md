@@ -59,3 +59,11 @@ Obre Visual Studio Code i el terminal Git Bash. Escriu:
 > “La millor manera d’aprendre és ensenyar.” – Albert Einstein
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+### 3️⃣ Crea el fitxer `.gitignore`
+
+Crea un fitxer anomenat `.gitignore` dins del teu repositori escrivint:
+
+```bash
+touch .gitignore
+
