@@ -44,10 +44,11 @@ Simularàs que ets el docent i dissenyaràs una activitat com les que fem a clas
 
 Obre Visual Studio Code i el terminal Git Bash. Escriu:
 
-```bash
+
 cd /c/projectes
 git clone https://github.com/<el-teu-usuari>/deveer-activitat-a12u.git
-cd deveer-activitat-a12u
+cd deveer-activitat-a12
+
 
 | Fitxer        | Descripció                       |
 |---------------|-----------------------------------|
@@ -55,6 +56,6 @@ cd deveer-activitat-a12u
 | `.gitignore`  | Llista de fitxers a ignorar       |
 | `imatge.png`  | Imatge decorativa (opcional)      |
 
-> “La millor manera d’aprendre és ensenyar.” – Albert Einstein (suposadament ���)
+> “La millor manera d’aprendre és ensenyar.” – Albert Einstein (suposadament ���)
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
