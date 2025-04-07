@@ -1,10 +1,5 @@
 # Activitat A12U — Dissenya el teu propi repte amb GitHub i Markdown
 
-## Instructor: Oriol Deveer  
-*Benvinguts a una activitat especial! Ara vosaltres sereu els docents. Dissenyareu una activitat tècnica per a un company, com si fóssiu professors de tecnologia.*
-
----
-
 ## Objectius d’aprenentatge
 
 Amb aquesta activitat assoliràs els següents objectius:
@@ -62,8 +57,32 @@ Obre Visual Studio Code i el terminal Git Bash. Escriu:
 
 ### 3️⃣ Crea el fitxer `.gitignore`
 
+.gitignore és un fitxer especial utilitzat per Git per ignorar fitxers o carpetes quan fem seguiment dels canvis en un projecte. Això vol dir que, encara que aquests fitxers existeixin al teu ordinador, Git no els tindrà en compte quan facis git add, commit o push.
+
+🔎 Per a què serveix?
+
+Evitar pujar fitxers temporals o innecessaris al repositori.
+
+Mantenir el projecte net i professional.
+
+Evitar conflictes amb configuracions locals (ex: carpetes de l’editor).
+
+💡 Exemple pràctic: Si tens la carpeta .vscode/ dins el projecte, però no vols que altres usuaris vegin la teva configuració personal de VS Code, pots afegir-la al .gitignore.
+
 Crea un fitxer anomenat `.gitignore` dins del teu repositori escrivint:
 
 ```bash
-touch .gitignore
+nano .gitignore
+
+# Fitxers del sistema
+.DS_Store
+Thumbs.db
+
+# Fitxers de l’editor
+.vscode/
+*.code-workspace
+
+# Fitxers temporals
+*.log
+*.tmp
 
